@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JDMFans.com — Legendary Japanese cars</title>
+<meta name="description" content="A photo gallery of legendary JDM cars: browse, filter and save your favourites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a href="index.html" class="logo">JDM<b>Fans</b></a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    <nav id="menu" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a><a href="gallery.html">Gallery</a><a href="timeline.html">Timeline</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="sun" aria-hidden="true"></div>
+    <div class="wrap">
+      <h1><span>Legends of the</span><span>Japanese roads</span></h1>
+      <p class="lead">Thirteen cars that defined Japanese performance, from the 2000GT to the R34. Browse the gallery, filter by brand or decade and save the ones you love.</p>
+      <p class="cta"><a class="btn primary" href="gallery.html">Explore the gallery</a><a class="btn" href="timeline.html">View timeline</a></p>
+    </div>
+  </section>
+  <section class="wrap stats" aria-label="The collection in numbers">
+    <div><b data-count="cars">0</b><span>legendary cars</span></div>
+    <div><b data-count="brands">0</b><span>brands</span></div>
+    <div><b data-count="decades">0</b><span>decades</span></div>
+  </section>
+  <section class="wrap block">
+    <h2>Featured legends</h2>
+    <div id="featured" class="grid"></div>
+  </section>
+  <section class="wrap block" id="favs" hidden>
+    <h2>Your favourites</h2>
+    <ul id="favlist" class="favlist"></ul>
+  </section>
+</main>
+<footer class="foot">
+  <div class="wrap bar">
+    <a href="index.html" class="logo">JDM<b>Fans</b>.com</a>
+    <nav aria-label="Footer"><a href="gallery.html">Gallery</a><a href="timeline.html">Timeline</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  </div>
+</footer>
+<script src="js/cars.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
